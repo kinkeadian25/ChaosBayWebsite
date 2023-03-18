@@ -1,0 +1,92 @@
+---
+layout: 'base.html'
+description: "Chaos Bay Brewing is a small, family owned and operated brewery in Bremerton, WA. We are dedicated to making the best beer possible."
+metaTitle: 'Bremerton Brewery Chaos Bay Brewing Beers'
+tagTitle: 'Beers'
+preloadImg: '/images/cabinets2-1920w.webp'
+preloadCSS: '/css/about.css'
+permalink: 'beers/'
+eleventyNavigation:
+    key: Beers
+    order: 200
+---
+
+<!-- Enter html code below -->
+
+<!-- ============================================ -->
+<!--                    LANDING                   -->
+<!-- ============================================ -->
+
+<section id="int-hero">
+  <h1 id="home-h">Our Beers</h1>
+  {% image './src/images/our-beers.jpg', 'beers', '', 'lazy', '(max-width: 1050px) 1050px, 1920px'%}
+</section>
+
+<!-- ============================================ -->
+<!--                 Side By Side                 -->
+<!-- ============================================ -->
+
+<section id="beers">
+  <div class="beers-container">
+    <h2 class="beers-title">Our Beers</h2>
+    <ul class="beers-list">
+      <li class="beer-item">
+        <div class="beer-info">
+          <h3 class="beer-name">IPA</h3>
+          <p class="beer-type">India Pale Ale</p>
+          <p class="beer-abv">ABV: 6.5%</p>
+        </div>
+      </li>
+      <li class="beer-item">
+        <div class="beer-info">
+          <h3 class="beer-name">Stout</h3>
+          <p class="beer-type">Imperial Stout</p>
+          <p class="beer-abv">ABV: 9.5%</p>
+        </div>
+      </li>
+      <li class="beer-item">
+        <div class="beer-info">
+          <h3 class="beer-name">Pilsner</h3>
+          <p class="beer-type">German Pilsner</p>
+          <p class="beer-abv">ABV: 5%</p>
+        </div>
+      </li>
+      <li class="beer-item">
+        <div class="beer-info">
+          <h3 class="beer-name">Belgian Dubbel</h3>
+          <p class="beer-type">Belgian Dubbel</p>
+          <p class="beer-abv">ABV: 7.5%</p>
+        </div>
+      </li>
+      <li class="beer-item">
+        <div class="beer-info">
+          <h3 class="beer-name">Saison</h3>
+          <p class="beer-type">Farmhouse Saison</p>
+          <p class="beer-abv">ABV: 6.5%</p>
+        </div>
+      </li>
+      <li class="beer-item">
+        <div class="beer-info">
+          <h3 class="beer-name">Hefeweizen</h3>
+          <p class="beer-type">German Hefeweizen</p>
+          <p class="beer-abv">ABV: 5.5%</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+
+<!-- ============================================ -->
+<!--             Final Call to Action             -->
+<!-- ============================================ -->
+
+<section id="cta">
+  <div class="container">
+    <h2 class="title">We Have Growlers <br> Get Your Beer Here</h2>
+    <p>
+            Avoid the sellouts *cough* Elysian, get your beer here!
+        </p>
+  </div>
+  {% image './src/images/beer.jpg', 'craft beers', '', 'lazy', '(max-width: 400px) 400px, (max-width: 850px) 850px, 1920'%}
+</section>

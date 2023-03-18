@@ -1,0 +1,296 @@
+---
+layout: 'base.html'
+description: 'Meta description for the page'
+metaTitle: 'Title that shows up on google searches'
+tagTitle: 'Pixel Perfect Websites'
+preloadImg: '/images/landing-1920w.webp'
+preloadCSS: '/css/local.css'
+permalink: '/'
+eleventyNavigation:
+  key: Home
+  order: 100
+---
+<!-- Enter html code below -->
+
+<!-- ============================================ -->
+<!--                    Hero                      -->
+<!-- ============================================ -->
+
+<section id="hero">
+  <div class="cs-container">
+    <div class="cs-flex-group">
+      <span class="cs-topper">chaos bay brewing</span>
+      <h1 class="cs-title">Good food, vibes, people, and even better beer</h1>
+      <p class="cs-text">
+        Chaos Bay Brewing is a family owned and operated brewery located in the heart of beautiful Manette, just off the ferry.
+      </p>
+      <a href="https://goo.gl/maps/cHDN6WEfiTQ6Ks4s5" class="cs-button-solid">Visit now</a>
+      <a href="https://www.youtube.com/watch?v=oxtxUVUnmhE" class="cs-button-transparent">
+        <img
+          class="cs-img"
+          loading="lazy"
+          decoding="async"
+          src="https://csimg.nyc3.digitaloceanspaces.com/Hero/play.svg"
+          alt="play icon"
+          width="17"
+          height="17"
+/>
+        Learn More
+      </a>
+    </div>
+  </div>
+
+  <!-- Background Image -->
+  {% image './src/images/landing.png', 'restaurant store front', 'cs-picture', 'eager', '(max-width: 400px) 400px, (max-width: 850px) 850px, 1920px'%}
+</section>
+
+<!-- ============================================ -->
+<!--                  Services                    -->
+<!-- ============================================ -->
+
+<section id="services" class="services">
+  <!-- Get Icons From flaticon.com -->
+  <div class="card">
+    <picture>
+      <img
+        aria-hidden="true"
+        decoding="async"
+        src="/assets/svgs/service1.svg"
+        alt="appliance"
+        width="48"
+        height="48"
+/>
+    </picture>
+    <h2>Craft Beer</h2>
+    <p>We pride ourselves on our hand crafted beers. We have a rolling tap that includes IPAs, Stouts, Porters, and more</p>
+  </div>
+  <div class="card">
+    <picture>
+      <img
+        aria-hidden="true"
+        decoding="async"
+        src="/assets/svgs/service2.svg"
+        alt="appliance"
+        width="48"
+        height="48"
+/>
+    </picture>
+    <h2>Pool and Pinball</h2>
+    <p>We have tons of fun things to do here. We love seeing people get involved in competitive or casual pool, pinball, or shuffledboard games</p>
+  </div>
+  <div class="card">
+    <picture>
+      <img
+        aria-hidden="true"
+        decoding="async"
+        src="/assets/svgs/service3.svg"
+        alt="appliance"
+        width="48"
+        height="48"
+/>
+    </picture>
+    <h2>Events</h2>
+    <p>We host all sorts of events. we regularaly schedule things like brunch and karaoke and you can shedule your own events with us. No need to be 21 to attend!</p>
+  </div>
+</section>
+
+<!-- ============================================ -->
+<!--                 Side By Side                 -->
+<!-- ============================================ -->
+
+<section id="sbs">
+  <div class="cs-container">
+    <!-- Left Image Section -->
+    <div class="cs-left">
+      {% image './src/images/beer.jpg', 'house', 'cs-picture cs-picture1', 'lazy'%}
+      {% image './src/images/food.jpg', 'house', 'cs-picture cs-picture2', 'lazy'%}
+    </div>
+    <!-- Right Content Section-->
+    <div class="cs-right">
+      <span class="cs-topper">About Us</span>
+      <h2 class="cs-title">About Chaos Bay</h2>
+      <p class="cs-text">
+      At Chaos Bay, we're all about crafting exceptional beers that showcase the spirit of our Bremerton, Washington community. Using only the finest ingredients and time-honored brewing methods, we create unique and flavorful brews that are loved by locals and visitors alike. But we're more than just a brewery.
+      </p>
+      <p class="cs-text">
+      Our passion for good food is just as strong as our love for great beer. Our kitchen serves up a rotating menu of delicious bites and full meals, all made from scratch using locally-sourced ingredients. Whether you're stopping in for a cold pint or a tasty bite, we can't wait to welcome you to Chaos Bay.
+      </p>
+      <div class="cs-flex-group">
+        <p class="cs-flex-p">
+          "Quote from owner"
+        </p>
+        <span class="cs-name">Justin Time</span>
+        <span class="cs-job">CEO-Founder</span>
+        <img
+          class="cs-quote-icon"
+          loading="lazy"
+          decoding="async"
+          src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/quote-white.svg"
+          alt="gavel"
+          width="136"
+          height="77"
+/>
+      </div>
+      <a href="/about" class="button-solid">More About Us</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================ -->
+<!--            Extra Content To Rank             -->
+<!-- ============================================ -->
+
+<section id="sbs-r">
+  <div class="cs-container">
+    <!-- Left Image Section -->
+    <div class="cs-left">
+      {% image './src/images/bingo.jpg', 'house', 'cs-picture cs-picture1', 'lazy'%}
+      {% image './src/images/room.jpg', 'house', 'cs-picture cs-picture2', 'lazy'%}
+    </div>
+    <!-- Right Content Section-->
+    <div class="cs-right">
+      <span class="cs-topper">Our Event Service</span>
+      <h2 class="cs-title">Bring your events to us</h2>
+      <p class="cs-text">
+        At Chaos Bay Brewing, we love bringing people together to celebrate and have a great time. That's why we offer two unique event spaces to host your next gathering. Our concert stage area is perfect for live music performances, featuring a state-of-the-art sound system and plenty of space for your guests to dance and mingle.
+      </p>
+      <p class="cs-text">
+        And for a more intimate setting, our large private room is ideal for birthdays, corporate events, or any other occasion where you want to enjoy great food and drinks with your closest friends and family. Plus, with our talented in-house kitchen team, we can create a custom menu tailored to your specific needs. So whether you're looking to rock out on our concert stage or relax in our private room, Chaos Bay Brewing has the perfect space for your next event.
+      </p>
+      <a href="" class="button-solid">Learn More About Our Events</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================ -->
+<!--                   Gallery                    -->
+<!-- ============================================ -->
+
+<section id="gallery">
+  <div class="cs-container">
+    <span class="cs-topper">Our Memories</span>
+    <h2 class="cs-title">We make the beer, but our customers make the brewery.</h2>
+    <div class="cs-image-group">
+      <!-- Row 1-->
+      <div class="cs-row cs-row-1">
+        {% image './src/images/portfolio/memory1.jpg', 'new hallway', 'cs-picture cs-picture-1', 'lazy', '(max-width: 600px) 200px, 400px'%}
+        {% image './src/images/portfolio/memory4.jpg', 'new home construction', 'cs-picture cs-picture-2', 'lazy', '(max-width: 600px) 200px, 400px'%}
+        {% image './src/images/portfolio/memory7.jpg', 'building a new wall', 'cs-picture cs-picture-3', 'lazy', '(max-width: 600px) 200px, 400px'%}
+        <!-- To add more images, copy and paste this row's picture tags here in order from cs-picture-1 to cs-picture-3 and they will maintain the same layout-->
+      </div>
+      <!-- Row 2 -->
+      <div class="cs-row cs-row-2">
+        {% image './src/images/portfolio/memory2.jpg', 'new kitchen', 'cs-picture cs-picture-1', 'lazy', '(max-width: 600px) 200px, 400px'%}
+        {% image './src/images/portfolio/memory5.jpg', 'apartment addition', 'cs-picture cs-picture-2', 'lazy', '(max-width: 600px) 200px, 400px'%}
+        {% image './src/images/portfolio/memory8.jpg', 'kew kitchen cabinets', 'cs-picture cs-picture-3', 'lazy', '(max-width: 600px) 200px, 400px'%}
+        <!-- To add more images, copy and paste this row's picture tags here in order from cs-picture-1 to cs-picture-3 and they will maintain the same layout-->
+      </div>
+      <!-- Row 3 -->
+      <div class="cs-row cs-row-3">
+        {% image './src/images/portfolio/memory3.jpg', 'new kitchen', 'cs-picture cs-picture-1', 'lazy', '(max-width: 600px) 200px, 400px'%}
+        {% image './src/images/portfolio/memory6.jpg', 'apartment addition', 'cs-picture cs-picture-2', 'lazy', '(max-width: 600px) 200px, 400px'%}
+        {% image './src/images/portfolio/memory9.jpg', 'kew kitchen cabinets', 'cs-picture cs-picture-3', 'lazy', '(max-width: 600px) 200px, 400px'%}
+
+        <!-- To add more images, copy and paste this row's picture tags here in order from cs-picture-1 to cs-picture-3 and they will maintain the same layout-->
+      </div>
+    </div>
+    <a href="/projects" class="button-solid">View Full Gallery</a>
+  </div>
+</section>
+
+<!-- ============================================ -->
+<!--                   Reviews                    -->
+<!-- ============================================ -->
+
+<section id="reviews">
+  <div class="cs-container">
+    <span class="cs-topper">Our Reviews</span>
+    <h2 class="cs-title">Words From Our Customers</h2>
+    <p class="cs-text">
+      We pride ourselves on customer feedback and satisfaction. Here are some of the reviews we've received from our customers.
+    </p>
+    <ul class="cs-card-group">
+      <!-- Review 1 -->
+      <li class="cs-item">
+        <img
+          class="cs-item-img"
+          aria-hidden="true"
+          loading="lazy"
+          decoding="async"
+          src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/profile5.png"
+          alt="profile picture"
+          width="80"
+          height="80"
+/>
+        <p class="cs-item-p">
+          Everything about this place is unique, comfortable, and awesome! I was recommended a Bloody Maria, a spicy Bloody Mary made with tequila, that did not disappoint. This isn’t fast food, definitely a place to relax and enjoy. We ordered several pizzas and salads to share, as well as the chicken strips which were the best I’ve ever had. The portions were generous and everything was homemade and delicious, they had a variety of fantastic homemade dipping sauces as well. This place is seriously a gem!
+        </p>
+        <span class="cs-reviewer">
+          Jon Doe
+          <span class="cs-desc">Homeowner</span>
+        </span>
+        <img
+          class="cs-item-stars"
+          aria-hidden="true"
+          loading="lazy"
+          decoding="async"
+          src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/stars-yellow.svg"
+          alt="stars"
+          width="96"
+          height="16"
+/>
+      </li>
+      <!-- Review 2 -->
+      <li class="cs-item">
+        <img
+          class="cs-item-img"
+          aria-hidden="true"
+          loading="lazy"
+          decoding="async"
+          src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/profile-4.png"
+          alt="profile picture"
+          width="80"
+          height="80"
+/>
+        <p class="cs-item-p">
+          Good beers on tap, food is pretty delicious, and the staff and bartenders are very friendly and awesome! They have a pretty simple and cozy atmosphere. Good for a get together with friends. They have pool tables and events on the occasion! I highly recommend Chaos Bay Brewing!
+        </p>
+        <span class="cs-reviewer">
+          Jane Doe
+          <span class="cs-desc">Bremertonian</span>
+        </span>
+        <img
+          class="cs-item-stars"
+          aria-hidden="true"
+          loading="lazy"
+          decoding="async"
+          src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/stars-yellow.svg"
+          alt="stars"
+          width="96"
+          height="16"
+/>
+      </li>
+    </ul>
+    <a aria-label="read more reviews" href="https://www.google.com/search?q=chaoos+bay+brewing&bih=842&biw=1479&hl=en&source=hp&ei=DYYVZKuYCIuF0PEP2_GYuAU&iflsig=AK50M_UAAAAAZBWUHbYE45ngcwaufpbgfcbOeSCAfqZO&ved=0ahUKEwjr0tflluX9AhWLAjQIHds4BlcQ4dUDCAo&uact=5&oq=chaoos+bay+brewing&gs_lcp=Cgdnd3Mtd2l6EAMyDQguEIAEEA0QxwEQrwEyBwgAEIAEEA06DgguEIAEELEDEMcBENEDOhEILhCABBCxAxCDARDHARDRAzoLCAAQgAQQsQMQgwE6CAgAEIAEELEDOggIABCxAxCDAToICC4QsQMQgwE6CwguELEDEIMBENQCOhEILhCDARDHARCxAxDRAxCABDoOCC4QgAQQsQMQgwEQ1AI6CwguEIAEELEDENQCOgsILhCABBDHARCvAToHCAAQgAQQCjoFCAAQgAQ6BwguEIAEEAo6CggAEIAEELEDEAo6DQguEK8BEMcBEIAEEAo6DQguEIAEELEDENQCEAo6EwgAEIAEELEDEIMBELEDEIMBEAo6DQguEA0QrwEQxwEQgAQ6DQguEIAEEA0QsQMQsQM6DQgAEIAEEA0QsQMQgwE6BwguEIAEEA06BggAEB4QDToICAAQHhANEAo6CAgAEAUQHhANOggIABAIEB4QDToGCAAQFhAeOgcIABANEIAEOggIABAeEA0QDzoFCAAQhgNQAFjMF2DOGGgAcAB4AIABcYgB4w2SAQQxMC44mAEAoAEB&sclient=gws-wiz#lrd=0x549039d4e27c5975:0x677e76adef9a2b2d,1,,,," class="button-solid">Read More</a>
+  </div>
+</section>
+<!-- ============================================ -->
+<!--             Final Call to Action             -->
+<!-- ============================================ -->
+
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script>
+  if (window.netlifyIdentity) {
+    window
+      .netlifyIdentity
+      .on('init', (user) => {
+        if (!user) {
+          window
+            .netlifyIdentity
+            .on('login', () => {
+              document.location.href = '/admin/';
+            });
+        }
+      });
+  }
+</script>

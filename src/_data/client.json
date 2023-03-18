@@ -1,0 +1,15 @@
+{
+  "name": "Chaos Bay Brewing",
+  "email": "kinkeadian@outlook.com",
+  "phone": "360-377-2344",
+  "phoneFormatted": "(360) 377-2344",
+  "address": {
+    "lineOne": "2901 Perry Ave",
+    "lineTwo": "Suite 13",
+    "city": "Bremerton",
+    "county": "WA",
+    "postcode": "98310",
+    "mapLink": "https://goo.gl/maps/cHDN6WEfiTQ6Ks4s5"
+  },
+  "domain": "www.chaosbaybrewing.com"
+}
