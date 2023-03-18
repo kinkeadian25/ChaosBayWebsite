@@ -28,48 +28,66 @@ eleventyNavigation:
 
 <section id="beers">
   <div class="beers-container">
-    <h2 class="beers-title">Our Beers</h2>
+    <h2 class="beers-title">Crafted with Passion</h2>
     <ul class="beers-list">
       <li class="beer-item">
-        <div class="beer-info">
-          <h3 class="beer-name">IPA</h3>
-          <p class="beer-type">India Pale Ale</p>
-          <p class="beer-abv">ABV: 6.5%</p>
+        <div class="beer-overlay">
+          <div class="beer-info">
+            <h3 class="beer-name">IPA</h3>
+            <p class="beer-type">India Pale Ale</p>
+            <p class="beer-abv">ABV: 6.5%</p>
+          </div>
+          {% image './src/images/our-beers.jpg', 'IPA', 'beer-image'%}
         </div>
       </li>
       <li class="beer-item">
-        <div class="beer-info">
-          <h3 class="beer-name">Stout</h3>
-          <p class="beer-type">Imperial Stout</p>
-          <p class="beer-abv">ABV: 9.5%</p>
+        <div class="beer-overlay">
+          <div class="beer-info">
+            <h3 class="beer-name">Stout</h3>
+            <p class="beer-type">Imperial Stout</p>
+            <p class="beer-abv">ABV: 9.5%</p>
+          </div>
+          {% image './src/images/our-beers.jpg', 'Stout', 'beer-image'%}
         </div>
       </li>
       <li class="beer-item">
-        <div class="beer-info">
-          <h3 class="beer-name">Pilsner</h3>
-          <p class="beer-type">German Pilsner</p>
-          <p class="beer-abv">ABV: 5%</p>
+        <div class="beer-overlay">
+          <div class="beer-info">
+            <h3 class="beer-name">Pilsner</h3>
+            <p class="beer-type">German Pilsner</p>
+            <p class="beer-abv">ABV: 5%</p>
+          </div>
+          {% image './src/images/our-beers.jpg', 'Pilsner', 'beer-image'%}
         </div>
       </li>
       <li class="beer-item">
-        <div class="beer-info">
-          <h3 class="beer-name">Belgian Dubbel</h3>
-          <p class="beer-type">Belgian Dubbel</p>
-          <p class="beer-abv">ABV: 7.5%</p>
+        <div class="beer-overlay">
+          <div class="beer-info">
+            <h3 class="beer-name">Belgian Dubbel</h3>
+            <p class="beer-type">Belgian Dubbel</p>
+            <p class="beer-abv">ABV: 7.5%</p>
+          </div>
+          {% image './src/images/our-beers.jpg', 'Belgian Dubbel', 'beer-image'%}
         </div>
       </li>
       <li class="beer-item">
-        <div class="beer-info">
-          <h3 class="beer-name">Saison</h3>
-          <p class="beer-type">Farmhouse Saison</p>
-          <p class="beer-abv">ABV: 6.5%</p>
+        <div class="beer-overlay">
+          <div class="beer-info">
+            <h3 class="beer-name">Saison</h3>
+            <p class="beer-type">Farmhouse Saison</p>
+            <p class="beer-abv">ABV: 6.5%</p>
+          </div>
+          {% image './src/images/our-beers.jpg', 'Saison', 'beer-image'%}
         </div>
       </li>
       <li class="beer-item">
-        <div class="beer-info">
-          <h3 class="beer-name">Hefeweizen</h3>
-          <p class="beer-type">German Hefeweizen</p>
-          <p class="beer-abv">ABV: 5.5%</p>
+        <div class="beer-overlay">
+          <div class="beer-info">
+            <h3 class="beer-name">Hefeweizen</h3>
+            <p class="beer-type">German Hefeweizen</p>
+            <p class="beer-abv">ABV: 5.5%</p>
+          </div>
+          {% image './src/images/our-beers.jpg', 'Hefeweizen', 'beer-image'%}
         </div>
       </li>
     </ul>
@@ -85,7 +103,7 @@ eleventyNavigation:
   <div class="container">
     <h2 class="title">We Have Growlers <br> Get Your Beer Here</h2>
     <p>
-            Avoid the sellouts *cough* Elysian, get your beer here!
+            Avoid the sellouts and domestics, get a growler!
         </p>
   </div>
   {% image './src/images/beer.jpg', 'craft beers', '', 'lazy', '(max-width: 400px) 400px, (max-width: 850px) 850px, 1920'%}

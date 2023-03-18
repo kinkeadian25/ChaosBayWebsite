@@ -332,6 +332,7 @@
   align-items: center;
   transition: all 0.2s ease-in-out;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: relative;
 }
 
 .beer-item:hover {
@@ -340,6 +341,25 @@
 
 .beer-info {
   text-align: center;
+  color: white;
+  opacity: 1;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.beer-item:hover .beer-info {
+  opacity: 0;
+}
+
+.beer-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.5;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.beer-item:hover .beer-image {
+  opacity: 1;
 }
 
 .beer-name {
@@ -352,9 +372,107 @@
   margin: 5px 0;
 }
 
+#beers {
+  color: #F6C026;
+  padding: 80px 0;
+}
+
+.beers-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.beers-title {
+  font-size: 48px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.beers-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.beer-item {
+  margin: 20px;
+  background-color: #12072ccf;
+  border-radius: 8px;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+}
+
+.beer-item {
+  position: relative;
+  margin: 20px;
+  background-color: #12072ccf;
+  border-radius: 8px;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.beer-item:hover {
+  transform: translateY(-10px);
+}
+
+.beer-info {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.beer-info * {
+  opacity: 1;
+  transition: all 0.2s ease-in-out;
+}
+
+.beer-item:hover .beer-info * {
+  opacity: 0;
+}
+
+.beer-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.5;
+  transition: all 0.2s ease-in-out;
+}
+
+.beer-item:hover .beer-image {
+  opacity: 1;
+}
+
+
+.beer-name {
+  font-size: 24px;
+  margin: 10px 0 5px;
+  color: #fff;
+}
+
+.beer-type {
+  font-size: 16px;
+  margin: 5px 0;
+  color: #fff;
+}
+
 .beer-abv {
   font-size: 14px;
   margin: 5px 0;
+  color: #fff;
 }
 
 .button-solid {
