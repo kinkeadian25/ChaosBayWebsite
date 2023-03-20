@@ -4,12 +4,13 @@
 /* Mobile */
 @media only screen and (min-width: 0em) {
   :root {
-    --primary: #FFBA19;
-    --primaryShade: #ffd675;
+    --primary: #089063;
+    --primaryShade: #75ffc1;
     --primaryDark: #805d0d;
     --bodyTextColor: #4E4B66;
     --bodyTextColorWhite: #FAFBFC;
     --headerColor: #1a1a1a;
+    --primaryLight: #0e6a56;
     /* 13px - 16px */
     --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
     /* 31px - 49px */
@@ -357,7 +358,7 @@
   }
   body.scroll #navigation .background-color-div {
     height: 100%;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: rgba(107, 155, 114, 0.2) 0px 7px 29px 0px;
   }
   body.scroll #navigation .logo .light {
     display: none;
@@ -613,7 +614,7 @@
 /* Mobile */
 @media only screen and (min-width: 0em) {
   #footer {
-    background: #1C1C1C;
+    background: #160606;
     padding: 5.25rem 0 1.25rem;
     font-size: min(4vw, 1.2em);
   }
@@ -817,6 +818,6 @@
 /* Dark Mode */
 @media only screen and (min-width: 0em) {
   body.dark-mode #footer {
-    background: #061623;
+    background: #340404;
   }
 }

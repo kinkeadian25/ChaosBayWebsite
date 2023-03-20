@@ -337,9 +337,6 @@
   body.dark-mode #services {
     background: var(--medium);
   }
-  body.dark-mode #services picture {
-    background: var(--primaryDark);
-  }
   body.dark-mode #services h2 {
     color: #fff;
     font-weight: bold;
